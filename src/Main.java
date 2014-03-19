@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 public class Main {
 public static void main(String[] args) {
-	ColorAna ca=new ColorAna("D:\\A.png");
+	ColorAna ca=new ColorAna(GlobalVariable.pic);
 	ca.showWind();
 }
 }

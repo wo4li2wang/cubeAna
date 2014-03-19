@@ -428,43 +428,43 @@ public class ColorAna extends Frame {
 			//因为是用摄像图拍摄的，所以不同环境下没种颜色的范围会有区别，这里强制定义颜色某个环境下的颜色区间
 			try {
 				BufferedReader br = new BufferedReader(new FileReader(
-						"D:\\src\\color\\red.txt"));
+						GlobalVariable.path+"red.txt"));
 				red = new ColorPoint(Integer.parseInt(br.readLine()),
 						Integer.parseInt(br.readLine()), Integer.parseInt(br
 								.readLine()));
 				br.close();
 				br = new BufferedReader(new FileReader(
-						"D:\\src\\color\\green.txt"));
+						GlobalVariable.path+"green.txt"));
 				green = new ColorPoint(Integer.parseInt(br.readLine()),
 						Integer.parseInt(br.readLine()), Integer.parseInt(br
 								.readLine()));
 				br.close();
 				br = new BufferedReader(new FileReader(
-						"D:\\src\\color\\blue.txt"));
+						GlobalVariable.path+"blue.txt"));
 				blue = new ColorPoint(Integer.parseInt(br.readLine()),
 						Integer.parseInt(br.readLine()), Integer.parseInt(br
 								.readLine()));
 				br.close();
 				br = new BufferedReader(new FileReader(
-						"D:\\src\\color\\yellow.txt"));
+						GlobalVariable.path+"yellow.txt"));
 				yellow = new ColorPoint(Integer.parseInt(br.readLine()),
 						Integer.parseInt(br.readLine()), Integer.parseInt(br
 								.readLine()));
 				br.close();
 				br = new BufferedReader(new FileReader(
-						"D:\\src\\color\\white.txt"));
+						GlobalVariable.path+"white.txt"));
 				white = new ColorPoint(Integer.parseInt(br.readLine()),
 						Integer.parseInt(br.readLine()), Integer.parseInt(br
 								.readLine()));
 				br.close();
 				br = new BufferedReader(new FileReader(
-						"D:\\src\\color\\black.txt"));
+						GlobalVariable.path+"black.txt"));
 				black = new ColorPoint(Integer.parseInt(br.readLine()),
 						Integer.parseInt(br.readLine()), Integer.parseInt(br
 								.readLine()));
 				br.close();
 				br = new BufferedReader(new FileReader(
-						"D:\\src\\color\\bg.txt"));
+						GlobalVariable.path+"bg.txt"));
 				bg = new ColorPoint(Integer.parseInt(br.readLine()),
 						Integer.parseInt(br.readLine()), Integer.parseInt(br
 								.readLine()));
@@ -474,7 +474,7 @@ public class ColorAna extends Frame {
 			}
 			try {
 				BufferedReader br = new BufferedReader(new FileReader(
-						"D:\\src\\color\\pink.txt"));
+						GlobalVariable.path+"pink.txt"));
 				pink = new ColorPoint(Integer.parseInt(br.readLine()),
 						Integer.parseInt(br.readLine()), Integer.parseInt(br
 								.readLine()));
@@ -483,7 +483,7 @@ public class ColorAna extends Frame {
 			}
 			try {
 				BufferedReader br = new BufferedReader(new FileReader(
-						"D:\\src\\color\\indigo.txt"));
+						GlobalVariable.path+"indigo.txt"));
 				indigo = new ColorPoint(Integer.parseInt(br.readLine()),
 						Integer.parseInt(br.readLine()), Integer.parseInt(br
 								.readLine()));
